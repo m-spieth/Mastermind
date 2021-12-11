@@ -34,7 +34,6 @@ namespace ConsoleMastermind
             {
                 answerString += answerList[i].ToString();
             }
-            Console.WriteLine(answerString);
 
             //Print the instuctions to the user and start prompting them for answers
             PrintStartMessage();
@@ -72,7 +71,7 @@ namespace ConsoleMastermind
                 "Each digit in the answer is between the number 1 and 6. You have 10 attempts " + 
                 "to guess the answer correctly. After each guess you will be shown a '+' for each " + 
                 "digit that is both correct and in the correct position. You will be shown a '-' " + 
-                "for digit that is correct but in the wronf position.");
+                "for each digit that is correct but in the wrong position.");
             Console.WriteLine();
             Console.WriteLine("Good luck!");
             Console.WriteLine();
